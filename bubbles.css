@@ -1,0 +1,100 @@
+/* BASE */
+html {
+	font: 62.5%/1.5 helmet, freesans, sans-serif;
+}
+
+body {
+	background: #fff;
+	color: #333;
+	font-size: 1.2rem;
+	padding: 2em;
+}
+
+
+
+/* Links */
+a {
+	color: #121774;
+	text-decoration: underline;
+}
+a:hover,
+a:focus {
+	color: #127474;
+	text-decoration: none;
+}
+
+
+
+/* Forms */
+::-webkit-input-placeholder {
+  color: #999;
+}
+:-moz-placeholder {
+  color: #999;
+}
+
+
+
+/* Banner */
+[role="banner"] {
+	border-bottom: 1px solid #666;
+	padding-bottom: 0.5em;
+}
+[role="banner"] h1 {
+	line-height: 1;
+	margin: 0;
+}
+
+
+
+/* Footer */
+[role="contentinfo"] {
+	border-top: 1px solid #ccc;
+	margin-top: 3em;
+	padding-top: 1em;
+}
+[role="contentinfo"] p {
+	color: #999;
+	font-size: 1.1em;
+	line-height: 1.2;
+	margin: 0;
+}
+[role="contentinfo"] a,
+[role="contentinfo"] a:visited {
+	color: #999;
+}
+
+
+
+/* Float clearing */
+.group:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+
+
+/* BUBBLES */
+body {
+	padding: 5em;
+}
+.bubble {
+	background: rgba(12,17,74,.38);
+	-moz-border-radius: 200px;
+	-moz-border-radius-bottomright: 0;
+	-webkit-border-radius: 200px;
+	-webkit-border-bottom-right-radius: 0;
+	border-radius: 200px;
+	border-bottom-right-radius: 0;
+	color: #fff;
+	display: table-cell;
+	height: 65px;
+	line-height: 1.333333333;
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+	width: 65px;
+}
